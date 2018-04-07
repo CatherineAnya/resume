@@ -1,0 +1,170 @@
+/*通用样式*/
+a{
+    text-decoration: none;
+}
+/*头部*/
+/*头部固定*/
+.header{
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 10;
+}
+.header .logo{
+    float: left;
+    width: 200px;
+    height: 100px;
+}
+.header .logo .name{
+    display: block;
+    padding-top: 30px;
+    color: #fff;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+}
+.header .logo .motto{
+    display: block;
+    color: #fff;
+    font-size: 16px;
+}
+.header .nav{
+    float: right;
+    width: 350px;
+    height: 100px;
+    line-height: 100px;
+    padding-left: 140px;
+}
+.header .nav a{
+    display: inline-block;
+    width: 110px;
+    height: 50px;
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+}
+.header .nav a span{
+    padding: 10px 5px 10px 5px;
+}
+/*首页*/
+/*因为头部固定，所以有个100的距离*/
+.home{
+    padding-top: 100px;
+}
+.home .photo{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    margin-left: 400px; 
+    padding-top: 15px;
+    border-radius: 50%;
+}
+.home .introduction{
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+}
+/*关于*/
+.about .title{
+    width: 400px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    margin: 0 auto;
+    color: #fff;
+    font-size: 26px;
+    border-bottom: 5px solid #eee;
+}
+.about .left, .about .middle, .about .right{
+    display: inline-block;
+    width: 280px;
+    height: 200px;
+    color: #fff;
+    margin-left: 40px;
+}
+.left .list, .middle .list{
+    border-right: 2px dashed #eee;
+}
+.capition{
+    width: 100px;
+    height: 50px;
+    line-height: 50px;
+    margin: 30px 0 0 60px;
+    font-size: 20px;
+}
+.list{
+    padding: 10px 0  0 60px;
+}
+/*作品集*/
+.portfolio .title{
+    width: 400px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    margin: 0 auto;
+    color: #fff;
+    font-size: 26px;
+    border-bottom: 5px solid #eee;
+}
+.portfolio .content{
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.portfolio .content .item{
+    width: 50%;
+    display: inline-block;
+    float: left;
+    padding-top: 30px;
+}
+.portfolio .content .item .effect{
+    width: 400px;
+    height: 216px;
+}
+.portfolio .content .item .describe{
+    width: 400px;
+    padding-top: 10px;
+    color: #fff;
+}
+/*链接*/
+.link .title{
+    width: 400px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    margin: 0 auto;
+    color: #fff;
+    font-size: 26px;
+    border-bottom: 5px solid #ddd;
+}
+.link .check p{
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    padding-top: 10px;
+    margin-bottom: 28px;
+}
+.link .check .c-link{
+    width: 400px;
+    margin: 0 auto;
+    padding-right: 23px;
+    text-align: center;
+}
+.link .check .c-link div{
+    display: inline-block;
+    width: 60px;
+    height: 45px;
+    text-align: center;
+    padding-top: 14px;
+    margin-left: 10px;
+    border: 2px dashed #fff;
+    border-radius: 50%;
+}
+/*底部*/
+.footer{
+    text-align: center;
+    color: #fff;
+    line-height: 70px;
+}

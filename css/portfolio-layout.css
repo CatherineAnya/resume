@@ -1,0 +1,54 @@
+/*清除默认*/
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #ddb6b6;
+}
+/*通用样式*/
+.wrap{
+    width: 1000px;
+    margin: 0 auto;
+    position: relative;
+}
+/*头部*/
+.header{
+    width: 100%;
+    height: 100px;
+    background-color: #ab8282;
+    box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+/*首页*/
+.home{
+    width: 1000px;
+    height: 300px;
+    margin: 0 auto;
+    background-color: #edc2c2;
+    margin-bottom: 5px;
+}
+/*关于*/
+.about{
+    width: 1000px;
+    height: 335px;
+    margin: 0 auto;
+    background-color: #edc2c2;
+    padding-top: 15px;
+    margin-bottom: 5px;
+}
+/*作品集*/
+.portfolio{
+    width: 1000px;
+    height: 530px;
+    margin: 0 auto;
+    background-color: #edc2c2;
+}
+/*链接地址*/
+.link{
+    height: 242px;
+    background-color: #ab8282;
+    margin-bottom: 5px;
+}
+/*底部*/
+.footer{
+    height: 70px;
+    background-color: #ab8282;
+}

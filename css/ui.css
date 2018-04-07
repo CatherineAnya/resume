@@ -1,0 +1,37 @@
+/*导航滑动交互*/
+.header .nav a span:hover{
+    border: 1px solid #ab8282;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    color: #ccc;
+    cursor: pointer;
+}
+.header .nav a .click{
+    border: 1px solid #ab8282;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    color: #ab8282;
+    background-color: #fff;
+}
+.header .nav a .click:hover{
+    color: #ab8282;
+}
+/*作品链接交互*/
+.link .c-link .github:hover, 
+.link .c-link .codepen:hover, 
+.link .c-link .fcc:hover{
+    background-color: #fff; 
+}
+/*返回顶部*/
+.goup{
+    display: none;
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    right: 20px;
+    bottom: 10px;
+    background: url(../img/goup.png) no-repeat center;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+}
+.goup:hover{
+    cursor: pointer;
+    border: 2px solid #fff;
+}
