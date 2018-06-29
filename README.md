@@ -32,7 +32,7 @@
 
 第三种方法，是用 animate 属性，当点击锚点后，页面平滑的滚动到相应的div元素上，这样做URL不会改变，同时点击锚点时会自动响应 scroll 事件，不需要重新绑定，但是如果页面复杂的话，偏移值可能会发生变化需要算法来辅助获取。
 
-（原博客：https://blog.csdn.net/z_qifa/article/details/74202815）
+（原博客：https://blog.csdn.net/z_qifa/article/details/74202815 ）
 
 2.如何实现网页定位导航特效？
 
